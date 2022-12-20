@@ -17,7 +17,7 @@ function Header() {
             alt="" />
         
         <div>
-            <h1 className="text-lg text-white font-bold">WealthGainers</h1>
+            <h1 className="text-lg text-white font-bold">WealthGamers</h1>
             <p className='text-sm text-white font-extrabold'>Lucky Wheel Draws</p>
             <p className='font-bold text-xs text-emerald-500 truncate'>User: {address?.substring(0,5)}...{address?.substring(address.length,address.length-5)}</p>
         </div>

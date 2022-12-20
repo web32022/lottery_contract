@@ -11,7 +11,7 @@ function Login() {
             <img
              className='rounded-full h-56 w-56 mb-10'
              src="https://i.imgur.com/4h7mAu7.png"/>
-             <h1 className='text-2xl text-white font-bold'>The WealthGainers</h1>
+             <h1 className='text-2xl text-white font-bold'>The WealthGamers</h1>
              <h2 className='text-white text-1xl'>Africa's First Decentralized Lucky Wheel Platform </h2>
              <p className='text-white text-xs text-center mt-3 font-extrabold'>Our Platform Is Totally Free From Human Interaction And Runs Decentralized On The Ethereum Blockchain & Smart Contracts</p>
              <button onClick={connectwithMetamask} 

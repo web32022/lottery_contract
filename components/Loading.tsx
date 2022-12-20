@@ -10,7 +10,7 @@ function Loading() {
     <div className='flex items-center space-x-2 mb-10'>
        <img src='https://i.imgur.com/4h7mAu7.png'
        className='rounded-full h-20 w-20'/>
-       <h1 className='text-lg text-white font-bold'>Loading WealthGainers Decentralized  Lottery</h1>
+       <h1 className='text-lg text-white font-bold'>Loading WealthGamers Decentralized  Lottery</h1>
     </div>
     <PropagateLoader color='white' size={30}></PropagateLoader>
     
