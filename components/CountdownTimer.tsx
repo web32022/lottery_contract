@@ -12,7 +12,7 @@ type Props={
 }
 
 function CountdownTimer() {
-    const {contract} = useContract('0xA2c8B8CFC3a9a7c4bf525b66c7A19105Ee128Be1');
+    const {contract} = useContract('0x7dc4BD1EAD10D6371dC76AB81dF33a299554AFE7');
     const {data:expiration,isLoading:isLoadingExpiration} = useContractRead(contract, "expiration");
 
     const renderer =({hours,minutes,seconds,completed}:Props)=>{
