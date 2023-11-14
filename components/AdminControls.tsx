@@ -8,7 +8,7 @@ import toast from 'react-hot-toast'
 
 
 function AdminControls() {
-    const {contract, isLoading} = useContract('0xA2c8B8CFC3a9a7c4bf525b66c7A19105Ee128Be1');
+    const {contract, isLoading} = useContract('0x7dc4BD1EAD10D6371dC76AB81dF33a299554AFE7');
     const {data:totalCommission} = useContractRead(contract,'operatorTotalCommission')
 
     const { mutateAsync: DrawWinnerTicket} = useContractWrite(contract, "DrawWinnerTicket")
