@@ -7,7 +7,7 @@ import {Toaster} from 'react-hot-toast'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-          <ThirdwebProvider desiredChainId={ChainId.Polygon}>
+          <ThirdwebProvider desiredChainId={ChainId.Mumbai}>
           <Component {...pageProps} />
           <Toaster/>
           </ThirdwebProvider>
