@@ -32,7 +32,7 @@ const Home: NextPage = () => {
   const [quantity ,setQuantity] = useState<number>(1);
   const[userTickets,setUserTickets] = useState(0)
   const address = useAddress();
-  const {contract, isLoading} = useContract('0xA2c8B8CFC3a9a7c4bf525b66c7A19105Ee128Be1');
+  const {contract, isLoading} = useContract('0x7dc4BD1EAD10D6371dC76AB81dF33a299554AFE7');
 
   const {data:remainingTickets} = useContractRead(
     contract,"RemainingTickets");
